@@ -3,6 +3,7 @@
 A fully serverless contact form built on AWS.
 
 ## Architecture
+![Architecture Diagram](architecture.png)
 
 - **Frontend**: Static website hosted on Amazon S3 + CloudFront (HTTPS)
 - **Backend**: API Gateway → Lambda (Python) → DynamoDB
